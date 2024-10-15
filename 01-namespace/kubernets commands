@@ -1,4 +1,8 @@
-kubectl create -f 01-namespace.yaml --> to create the kubernets services inside the 01-namespace.yaml file.
+kubectl apply/create -f 01-namespace.yaml --> to create the kubernets services which are in inside the 01-namespace.yaml file.
+
 kubectl get namespaces/kubectl get ns/kubectl get ns -A --> to see all name spaces
+
+kubectl delete -f 01-namespace.yaml --> to delete all services inside the 01-namespace.yaml file
+
 
 
