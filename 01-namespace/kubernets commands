@@ -1,0 +1,4 @@
+kubectl create -f 01-namespace.yaml --> to create the kubernets services inside the 01-namespace.yaml file.
+kubectl get namespaces/kubectl get ns/kubectl get ns -A --> to see all name spaces
+
+
