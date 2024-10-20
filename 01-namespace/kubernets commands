@@ -4,5 +4,6 @@ kubectl get namespaces/kubectl get ns/kubectl get ns -A --> to see all name spac
 
 kubectl delete -f 01-namespace.yaml --> to delete all services inside the 01-namespace.yaml file
 
+kubectl get ns/ kubectl get namespaces --> to see all namespaces in cluster
 
 
