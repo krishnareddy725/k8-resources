@@ -1,0 +1,4 @@
+1) error: resource mapping not found for name: "multi-container" namespace: "roboshop" from "multicontainer.yaml": no matches for kind "multicontainer" in version "v1".
+a) kind: Pod
+
+2)

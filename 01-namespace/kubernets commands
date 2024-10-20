@@ -6,4 +6,8 @@ kubectl delete -f 01-namespace.yaml --> to delete all services inside the 01-nam
 
 kubectl get ns/ kubectl get namespaces --> to see all namespaces in cluster
 
+kubectl get pods -n roboshop --> to see the pods in roboshop namespace
+
+kubectl describe pod multi-container -n roboshop --> to see the number of the containers inside the POD and there details.
+
 
