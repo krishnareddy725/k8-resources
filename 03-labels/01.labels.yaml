@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: labelspod
+  namespace: roboshop
+  labels:
+    name: krishna
+    team: TES
+
+spec:
+  containers:
+    - name: labelcontainer
+      image: nginx
+      - containerPort: 80
