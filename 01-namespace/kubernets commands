@@ -10,4 +10,8 @@ kubectl get pods -n roboshop --> to see the pods in roboshop namespace
 
 kubectl describe pod multi-container -n roboshop --> to see the number of the containers inside the POD and there details.
 
+kubectl describe pods labelspod -n roboshop --> to see the details for single pod in roboshop namespace. ex: labels
+
+                      --> to login to the particular container in pod
+
 
