@@ -11,4 +11,5 @@ spec:
   containers:
     - name: labelcontainer
       image: nginx
-      - containerPort: 80
+      ports:
+        - containerPort: 80
