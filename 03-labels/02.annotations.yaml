@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotationpod
+  namespace: roboshop
+  labels:
+    name: krishna
+    team: TES
+  annotations:
+    docke.io: "used for docker reference"
+    imageregistry: "https://hub.docker.com/"
+
+spec:
+  containers:
+    - name: annotationpod
+      image: nginx
+      ports:
+        - containerPort: 80
