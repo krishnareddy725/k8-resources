@@ -20,5 +20,7 @@ kubectl describe configmap configmap -n roboshop --> to see details of the confi
 
 kubectl exec -it configmappod -n roboshop -- bash --> to login to the pod to see details of the pod.
 
+kubectl logs configmappod -n roboshop ==> to see the logs of pod
 
+kubectl delete pod configmappod -n roboshop --> to delte the pod
 
